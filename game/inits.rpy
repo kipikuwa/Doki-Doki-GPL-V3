@@ -44,8 +44,8 @@ init python:
 # init python:
 #     config.overlay_screens.append("sleep_time")
 
-init python:
-    config.overlay_screens.append("show_time")
+# init python:
+#     config.overlay_screens.append("show_time")
 
-init python:
-    config.overlay_screens.append("show_label_name")
+# init python:
+#     config.overlay_screens.append("show_label_name")
