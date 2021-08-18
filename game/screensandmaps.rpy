@@ -11,7 +11,7 @@ screen map1():
         pos 110,65
         background "map_home_idle"
         hover_background "map_home_hover"
-        text "House"
+        text "House" color "#000"
         if not current_label == "house":
             action Function(change_time, 6), Hide("map1"), Jump("house_labels")
     button:
@@ -20,7 +20,7 @@ screen map1():
         pos 998,185
         background "map_street_idle"
         hover_background "map_street_hover"
-        text "Street"
+        text "Street" color "#000"
         if not current_label == "nana":
             action Function(change_time, 6), Hide("map1"), Jump("nana_labels")
     button:
@@ -29,7 +29,7 @@ screen map1():
         pos 1020,629
         background "map_school_idle"
         hover_background "map_school_hover"
-        text "School"
+        text "School" color "#000"
         if not current_label == "ayame":
             action Function(change_time, 6), Hide("map1"), Jump("ayame_labels")
     button:
@@ -38,7 +38,7 @@ screen map1():
         pos 310,743
         background "map_jungle_idle"
         hover_background "map_jungle_hover"
-        text "Jungle"
+        text "Jungle" color "#000"
         if not current_label == "mayo":
             action Function(change_time, 6), Hide("map1"), Jump("mayo_labels")
 

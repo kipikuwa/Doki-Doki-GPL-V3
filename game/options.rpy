@@ -37,7 +37,7 @@ define gui.about = _p("""
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "Doki Doki GPL V3"
+define build.name = "Doki_Doki_GPL_V3"
 
 
 ## Sounds and music ############################################################
