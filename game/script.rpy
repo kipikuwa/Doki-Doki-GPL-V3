@@ -21,7 +21,9 @@ define credit = """Heart icon by ina el-kadhi:
 {a=https://www.flickr.com/photos/139807577@N08/25508799373}https://www.flickr.com/photos/139807577@N08/25508799373{/a}
 
 Fonts:
-Piazzolla Family
+LeningradDisco
+DejaVuSans
+GowaItalic
 
 0GUI by kiaazad:
 {a=https://github.com/Kiaazad/0GUI}https://github.com/Kiaazad/0GUI{/a}
@@ -39,7 +41,7 @@ Story:
 GPL V3
 
 Sound Effects:
-From Resident Evil 2TM Capcom
+From Resident Evil 2™ Capcom
 And Thanks for playing [p.name]!"""
 
 ############################################################## Transitions ##############################################################
@@ -84,5 +86,6 @@ label day_end:
 label ending:
     scene black with dis1
     show screen ending with dissolve
+    pause
     pause
     return   

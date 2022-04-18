@@ -177,6 +177,7 @@ label ayame5:
             p "or from any part of it."
 
     if ayame_choice_1 == "1":
+        hide screen map_icon
         show ayame smile with dissolve
         ayame "(Additional permissions may be written to require their own removal in certain cases when you modify the work.)"
         ayame "You may place additional permissions on material,"

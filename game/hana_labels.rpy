@@ -50,12 +50,12 @@ label hana2:
         "A \"Standard Interface\" means an interface that either is an official standard defined by a recognized standards body, {image=plus1} \"With Glasses\"":
             $ hana_points += 1
             $ hana_choice_1 = "1"
-            $ hana_glasses = False
+            $ hana_glasses = True
             p "A \"Standard Interface\" means an interface that either is an official standard defined by a recognized standards body,"
         "or, in the case of interfaces specified for a particular programming language, {image=plus1} \"Without Glasses\"":
             $ hana_points += 1
             $ hana_choice_1 = "2"
-            $ hana_glasses = True
+            $ hana_glasses = False
             p "or, in the case of interfaces specified for a particular programming language,"
         "... {image=minus1}":
             $ hana_points -= 1
@@ -176,6 +176,7 @@ label hana5:
             $ hana_choice_1 = "0"
             p "You may not propagate or modify a covered work except as expressly provided under this License."
     if hana_choice_1 == "1":
+        hide screen map_icon
         show hana smile with dissolve
         hana "Any attempt otherwise to propagate or modify it is void, and will automatically terminate your rights under this License"
         hana "(including any patent licenses granted under the third paragraph of section 11)."

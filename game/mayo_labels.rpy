@@ -173,6 +173,7 @@ label mayo5:
             p "f) Requiring indemnification of licensors and authors of that material by anyone who conveys the material"
 
     if mayo_choice_1 == "1":
+        hide screen map_icon
         show mayo smile with dissolve
         mayo "(or modified versions of it) with contractual assumptions of liability to the recipient,"
         mayo "for any liability that these contractual assumptions directly impose on those licensors and authors."

@@ -11,7 +11,7 @@ screen say(who, what):
         # at say_alpha(persistent.textBoxOpacity)
         # bar value FieldValue(persistent, "textBoxOpacity", range=1.0)
 
-        ysize 250 yalign 1.0 xsize 1200
+        ysize 300 yalign 1.0 xsize 1200
 
         if who is not None:
             window:

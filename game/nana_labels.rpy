@@ -207,6 +207,7 @@ label nana5:
             p "in accord with this section must be in a format that is publicly documented"
         
     if nana_choice_1 == "1":
+        hide screen map_icon
         show nana smile with dissolve
         nana "(and with an implementation available to the public in source code form),"
         nana "and must require no special password or key for unpacking, reading or copying."
@@ -234,6 +235,7 @@ label nana_end:
     else:
         show bg street redux day with dis1
     show nana amazed with dissolve
+    hide screen map_icon
     "This is the end with Nana!"
     show nana happy with dis1
     "It's time!"

@@ -60,7 +60,7 @@ init python:
 
 define thm = gui0(
     "#ffcc66", # text color
-    "0GUI/frame/001.png", # frame color or image
+    "0GUI/frame/001.webp", # frame color or image
     "#ff0", # accent color
     .33, # frame accent color offset
     (16, 16), # frame boarders size
@@ -110,10 +110,10 @@ style default:
     selected_background thm.f_slc_idl
     selected_hover_background thm.f_slc_hov
     insensitive_background thm.f_ins
-    
-    hover_sound "0gui/sfx/hover.mp3"
-    activate_sound "0gui/sfx/select.mp3"
 
+    hover_sound "audio/re2_coursor.wav"
+    activate_sound "audio/re2_decide.wav"
+    
     left_bar thm.l_bar
     right_bar thm.r_bar
     hover_left_bar thm.l_bar_hov

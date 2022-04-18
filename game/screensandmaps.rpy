@@ -42,10 +42,6 @@ screen map1():
         if not current_label == "mayo":
             action Function(change_time, 6), Hide("map1"), Jump("mayo_labels")
 
-style map1_button:
-    hover_sound "audio/re2_coursor.wav"
-    activate_sound "audio/re2_decide.wav"
-
 screen hana_love_locations():
     tag map
     add "map_bg"
@@ -83,10 +79,6 @@ screen hana_love_locations():
         hover_background "map_jungle_hover"
         text "Jungle"
         action Return(3)
-
-style hana_love_locations_button:
-    hover_sound "audio/re2_coursor.wav"
-    activate_sound "audio/re2_decide.wav"
 
 screen show_time():
     text str(time_of_day)
